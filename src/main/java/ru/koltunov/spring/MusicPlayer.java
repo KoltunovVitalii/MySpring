@@ -1,41 +1,45 @@
 package ru.koltunov.spring;
 
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
-public class MusicPlayer {
-    private List<Music> musicList = new ArrayList<>();
-    private String name;
-    private int volume;
 
-    public List<Music> getMusicList() {
-        return musicList;
-    }
+    @Component
 
-    public void setMusicList(List<Music> musicList) {
-        this.musicList = musicList;
-    }
+    public class MusicPlayer {
 
-    public String getName() {
-        return name;
-    }
+        @Value("${musicPlayer.name}")
+        private String name;
+        @Value("${musicPlayer.volume}")
+        private int volume;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+        public String getName() {
+            return name;
+        }
 
-    public int getVolume() {
-        return volume;
-    }
+        public void setName(String name) {
+            this.name = name;
+        }
 
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
+        public int getVolume() {
+            return volume;
+        }
 
-    public void playMusic() {
-        for (Music music : musicList) {
-            System.out.println("Playing: " + music.getSong());
+        public void setVolume(int volume) {
+            this.volume = volume;
+        }
+
+        @Autowired
+        @Qualifier("rockMusic")
+        private Music music;
+
+        @Autowired
+        @Qualifier("rapMusic")
+        private Music music2;
+
+        public String playMusic() {
+            return "Playing: " + music.getSong() + ", " + music2.getSong();
         }
     }
-}

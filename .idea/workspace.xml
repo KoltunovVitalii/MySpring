@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224a5732-3836-41f8-9a5c-c24c69c1d9f7" name="Changes" comment="3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/RapMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
+    <list default="true" id="224a5732-3836-41f8-9a5c-c24c69c1d9f7" name="Changes" comment="4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/RapMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/RapMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/koltunov/spring/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +61,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.koltunov.spring" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.koltunov.spring" />
       <recent name="ru.koltunov" />
@@ -219,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694671208316</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="4">
+      <created>1694692793118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694692793118</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +263,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MySpring" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySpring" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
 </project>
